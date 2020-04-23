@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ViewPager2 On Boarding</string>
+    <string-array name="on_boarding_titles">
+        <item>On Boarding Title 1</item>
+        <item>On Boarding Title 2</item>
+        <item>On Boarding Title 3</item>
+    </string-array>
+    <string-array name="on_boarding_texts">
+        <item>1. Lorem Ipsum is simply dummy \ntext of the printing and typesetting \nindustry. Lorem Ipsum has been …</item>
+        <item>2. Lorem Ipsum is simply dummy \ntext of the printing and typesetting \nindustry. Lorem Ipsum has been …</item>
+        <item>3. Lorem Ipsum is simply dummy \ntext of the printing and typesetting \nindustry. Lorem Ipsum has been …</item>
+    </string-array>
+    <string name="on_boarding_bottom_text">Not ready to sign up? Explore the app</string>
+    <string name="sign_up">Sign up</string>
+    <string name="login">Login</string>
+</resources>

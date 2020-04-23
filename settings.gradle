@@ -1,0 +1,2 @@
+rootProject.name='VP2 On Boarding'
+include ':app'

@@ -1,0 +1,47 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="App.OnBoarding.NoActionBar" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">#80000000</item>
+        <item name="android:letterSpacing">0.08</item>
+        <item name="android:textColor">@color/colorGrayTexts</item>
+    </style>
+
+    <style name="App.OnBoarding.TextTitle" parent="App.OnBoarding.NoActionBar">
+        <item name="android:lineSpacingExtra">1sp</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="App.OnBoarding.TextMsg" parent="App.OnBoarding.NoActionBar">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="App.OnBoarding.Buttons" parent="App.OnBoarding.NoActionBar">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="App.OnBoarding.Buttons.SignUp" parent="App.OnBoarding.Buttons">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:background">@drawable/bg_green_rectangle</item>
+    </style>
+
+    <style name="App.OnBoarding.Buttons.Login" parent="App.OnBoarding.Buttons">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:background">@drawable/bg_empty_rectangle_green_border</item>
+    </style>
+
+    <style name="App.OnBoarding.BottomMsg" parent="App.OnBoarding.Buttons">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">0.1</item>
+    </style>
+</resources>
